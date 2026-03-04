@@ -1,0 +1,17 @@
+.generalInfoComponent1 {
+  height: 25vh;
+  width: 30vw;
+  padding: 20px;
+  font-size: 2.4vh;
+  background-color: #f7f7e9;
+  border-radius: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.personalInf {
+  height: 30px;
+}

@@ -1,0 +1,22 @@
+.educationComponent2 {
+  height: 40vh;
+  width: 30vw;
+  padding: 20px;
+  font-size: 2.4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f7f7e9;
+  border-radius: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.educationInp {
+  height: 30px;
+}
