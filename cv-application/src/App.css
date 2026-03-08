@@ -6,10 +6,21 @@
 }
 
 .mainContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.leftContainer {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
+
+.rightContainer {
+}
+
 @keyframes logo-spin {
 }
 

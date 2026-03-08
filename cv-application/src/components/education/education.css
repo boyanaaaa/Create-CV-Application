@@ -20,3 +20,11 @@ form {
 .educationInp {
   height: 30px;
 }
+
+.addEducationBtn {
+  background-color: #c0bf95;
+}
+
+.educationP {
+  font-weight: 600;
+}
