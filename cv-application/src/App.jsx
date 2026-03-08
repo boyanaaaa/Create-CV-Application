@@ -6,18 +6,22 @@ import WorkInfo from "./components/work/work";
 import Preview from "./components/cv-preview/preview";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [generalInfo, setGeneralInfo] = useState({
+    name: "",
+    email: "",
+    phone: "",
+  });
 
   return (
     <>
       <div className="mainContainer">
         <div className="leftContainer">
-          <GeneralInfo title="Boyana" text="Dimitrova" />
+          <GeneralInfo data={generalInfo} setData={setGeneralInfo} />
           <Education />
           <WorkInfo />
         </div>
         <div className="rightContainer">
-          <Preview />
+          <Preview generalInfo={generalInfo} />
         </div>
       </div>
     </>
