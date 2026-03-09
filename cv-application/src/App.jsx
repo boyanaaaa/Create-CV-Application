@@ -12,16 +12,18 @@ function App() {
     phone: "",
   });
 
+  const [education, setEducation] = useState([]);
+
   return (
     <>
       <div className="mainContainer">
         <div className="leftContainer">
           <GeneralInfo data={generalInfo} setData={setGeneralInfo} />
-          <Education />
+          <Education data={education} setData={setEducation} />
           <WorkInfo />
         </div>
         <div className="rightContainer">
-          <Preview generalInfo={generalInfo} />
+          <Preview generalInfo={generalInfo} education={education} />
         </div>
       </div>
     </>

@@ -3,8 +3,9 @@
   width: 30vw;
   padding: 20px;
   font-size: 2.4vh;
-  background-color: #f7f7e9;
   border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 form {

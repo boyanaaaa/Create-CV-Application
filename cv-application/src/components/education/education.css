@@ -7,8 +7,9 @@
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  background-color: #f7f7e9;
   border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 form {
@@ -22,9 +23,21 @@ form {
 }
 
 .addEducationBtn {
-  background-color: #c0bf95;
+  background-color: #8cc1e0;
+  color: #ffffff;
 }
 
 .educationP {
   font-weight: 600;
+}
+
+.educationDivs {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.educationDivs p {
+  margin: 0;
 }
