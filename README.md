@@ -11,15 +11,12 @@ A **React CV Builder** that allows users to enter personal information, educatio
 
 ---
 
-# ✨ Features
+**🚀 Future Improvements**
 
-✔ Add **General Information**
-✔ Add **multiple education entries**
-✔ Add **work experience**
-✔ **Live CV preview** while typing
-✔ Clean and responsive layout
-✔ Icons with **Font Awesome**
-
+🔹 Improve the overall design and layout
+🔹 Add ability to download the CV as a PDF
+🔹 Add edit and delete functionality for entries
+🔹 Add multiple CV templates
 ---
 
 # 📸 Screenshot
