@@ -1,24 +1,55 @@
 .previewComponent {
-  height: 120vh;
+  height: auto;
   width: 40vw;
   padding: 20px;
   font-size: 2.4vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   border-radius: 20px;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.previewContainer {
+
+.generalInfoPreview {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.previewContainer p {
+
+.generalInfoPreview p {
   margin: 0;
 }
-.educationTitle {
+.educationTitle,
+.experienceTitle {
   font-weight: 600;
+}
+
+.educationPreview,
+.experiencePreview,
+.generalInfoPreview {
+  height: auto;
+  width: 30vw;
+  padding: 20px;
+  font-size: 2.4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media (max-width: 750px) {
+  .previewComponent {
+    width: 70vw;
+  }
+
+  .educationPreview,
+  .experiencePreview,
+  .generalInfoPreview {
+    width: 60vw;
+  }
 }

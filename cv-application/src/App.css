@@ -10,6 +10,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
+  background-color: rgb(239, 241, 242);
 }
 
 .leftContainer {
@@ -19,11 +20,12 @@
   align-items: center;
 }
 
-.rightContainer {
-}
-
-@keyframes logo-spin {
-}
-
-@media (prefers-reduced-motion: no-preference) {
+@media (max-width: 750px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
 }

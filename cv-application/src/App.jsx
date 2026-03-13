@@ -13,6 +13,7 @@ function App() {
   });
 
   const [education, setEducation] = useState([]);
+  const [experience, setExperience] = useState([]);
 
   return (
     <>
@@ -20,10 +21,14 @@ function App() {
         <div className="leftContainer">
           <GeneralInfo data={generalInfo} setData={setGeneralInfo} />
           <Education data={education} setData={setEducation} />
-          <WorkInfo />
+          <WorkInfo data={experience} setData={setExperience} />
         </div>
         <div className="rightContainer">
-          <Preview generalInfo={generalInfo} education={education} />
+          <Preview
+            generalInfo={generalInfo}
+            education={education}
+            experience={experience}
+          />
         </div>
       </div>
     </>

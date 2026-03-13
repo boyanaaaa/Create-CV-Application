@@ -20,3 +20,10 @@ form {
 .persInfo {
   font-weight: 600;
 }
+
+@media (max-width: 750px) {
+  .generalInfoComponent1 {
+    width: 70vw;
+    height: 30vh;
+  }
+}

@@ -27,6 +27,22 @@
   color: #ffffff;
 }
 
-.exp {
+.expP {
   font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .workYears {
+    flex-direction: column;
+  }
+
+  .generalInfoComponent3 {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 750px) {
+  .generalInfoComponent3 {
+    width: 70vw;
+  }
 }
