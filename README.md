@@ -10,14 +10,6 @@ A **React CV Builder** that allows users to enter personal information, educatio
 👉 https://boyanaaaa.github.io/Create-CV-Application/
 
 ---
-**🚀 Future Improvements**
-
-🔹 Improve the overall design and layout  
-🔹 Add ability to download the CV as a PDF  
-🔹 Add edit and delete functionality for entries  
-🔹 Add multiple CV templates  
-
----
 
 # 📸 Screenshot
 
@@ -102,9 +94,9 @@ You can view it here:
 # 🚀 Future Improvements
 
 * 📄 Export CV as **PDF**
-* 🎨 Multiple **CV templates**
-* 💾 Save CV in **local storage**
-* ✏ Edit and delete education/work entries
+* 🎨 Improve the overall design and layout  
+* 💾 Add multiple CV templates  
+* ✏  Add edit and delete functionality for entries  
 
 ---
 
